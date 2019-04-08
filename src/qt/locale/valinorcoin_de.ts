@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie ValinorCoin überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie QpayCoin überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie ValinorCoin empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie QpayCoin empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre ValinorCoin-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie ValinorCoin überweisen.</translation>
+        <source>These are your QpayCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre QpayCoin-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie QpayCoin überweisen.</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre ValinorCoin-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your QpayCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre QpayCoin-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,7 +176,7 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <source>QpayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
         <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer VPCs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
-        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine ValinorCoin Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <source>Enter a Qpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Gib eine QpayCoin Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>ValinorCoin Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The QpayCoin address to sign the message with</source>
+        <translation>QpayCoin Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese ValinorCoin Adresse besitzt</translation>
+        <source>Sign the message to prove you own this QpayCoin address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese QpayCoin Adresse besitzt</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Geben Sie den BIP 38 verschlüsselten privaten Schlüssel ein. Geben Sie die Passphrase im mittleren Feld ein. Klicken Sie auf Entschlüsselung, um den privaten Schlüssel zu berechnen. Nachdem der Schlüssel entschlüsselt wurde, klicken Sie auf 'Adresse importieren', fügen Sie diesen privaten Schlüssel der Wallet hinzu.</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>Die ValinorCoin Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The QpayCoin address the message was signed with</source>
+        <translation>Die QpayCoin Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen ValinorCoin-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified QpayCoin address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen QpayCoin-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a ValinorCoin address</source>
-        <translation>An eine ValinorCoin-Adresse überweisen</translation>
+        <source>Send coins to a QpayCoin address</source>
+        <translation>An eine QpayCoin-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und valinorcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and qpaycoin: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und qpaycoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -622,24 +622,24 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About ValinorCoin Core</source>
-        <translation>Über.ValinorCoin Core</translation>
+        <source>&amp;About QpayCoin Core</source>
+        <translation>Über.QpayCoin Core</translation>
     </message>
     <message>
-        <source>Show information about ValinorCoin Core</source>
-        <translation>Zeigt Informationen über ValinorCoin Core</translation>
+        <source>Show information about QpayCoin Core</source>
+        <translation>Zeigt Informationen über QpayCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for ValinorCoin</source>
-        <translation>Konfiguration von ValinorCoin verändern</translation>
+        <source>Modify configuration options for QpayCoin</source>
+        <translation>Konfiguration von QpayCoin verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer ValinorCoin-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your QpayCoin addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer QpayCoin-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten ValinorCoin-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified QpayCoin addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten QpayCoin-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Öffne Masternode Einstellungsdatei</translation>
     </message>
     <message>
-        <source>Open a ValinorCoin: URI or payment request</source>
-        <translation>Öffne eine ValinorCoin: URI or Zahlungsanfrage</translation>
+        <source>Open a QpayCoin: URI or payment request</source>
+        <translation>Öffne eine QpayCoin: URI or Zahlungsanfrage</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Blockchain Betrachter Fenster</translation>
     </message>
     <message>
-        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
-        <translation>Zeige die ValinorCoin-Core Hilfe, um mögliche ValinorCoin Kommando-Zeilen-Optionen anzuzeigen</translation>
+        <source>Show the QpayCoin Core help message to get a list with possible QpayCoin command-line options</source>
+        <translation>Zeige die QpayCoin-Core Hilfe, um mögliche QpayCoin Kommando-Zeilen-Optionen anzuzeigen</translation>
     </message>
     <message>
-        <source>ValinorCoin Core client</source>
-        <translation>ValinorCoin Core Client</translation>
+        <source>QpayCoin Core client</source>
+        <translation>QpayCoin Core Client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -812,8 +812,8 @@ Adresse: %4</translation>
         <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "valinorcoin.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (qpaycoin.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "qpaycoin.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -1113,8 +1113,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ValinorCoin address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige ValinorCoin-Adresse.</translation>
+        <source>The entered address "%1" is not a valid QpayCoin address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige QpayCoin-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1159,16 +1159,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About ValinorCoin Core</source>
-        <translation>Über ValinorCoin Core</translation>
+        <source>About QpayCoin Core</source>
+        <translation>Über QpayCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1214,16 +1214,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to ValinorCoin Core.</source>
-        <translation>Willkommen zu ValinorCoin Core.</translation>
+        <source>Welcome to QpayCoin Core.</source>
+        <translation>Willkommen zu QpayCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where ValinorCoin Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie ValinorCoin Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where QpayCoin Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie QpayCoin Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>ValinorCoin Core will download and store a copy of the ValinorCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>ValinorCoin Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>QpayCoin Core will download and store a copy of the QpayCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>QpayCoin Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1234,8 +1234,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1372,12 +1372,12 @@ Adresse: %4</translation>
         <translation>Zieladresse eingeben</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ValinorCoin addresses after it matures.
-To Add: enter percentage to give and ValinorCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other QpayCoin addresses after it matures.
+To Add: enter percentage to give and QpayCoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen ValinorCoin-Adressen zu senden.
-Zum hinzufügen: Gebe den Prozentsätze ein, um die ValinorCoin-Adressen des MultiSend-Vektor hinzuzufügen.
+        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen QpayCoin-Adressen zu senden.
+Zum hinzufügen: Gebe den Prozentsätze ein, um die QpayCoin-Adressen des MultiSend-Vektor hinzuzufügen.
 Zum entfernen: Gebe die zu löschende Adresse ein und drücke löschen.
 MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translation>
     </message>
@@ -1705,8 +1705,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a ValinorCoin address (e.g. %1)</source>
-        <translation>ValinorCoin-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a QpayCoin address (e.g. %1)</source>
+        <translation>QpayCoin-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2106,8 +2106,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to send the payment to</source>
-        <translation>ValinorCoin-Adresse, an die überwiesen werden soll</translation>
+        <source>The QpayCoin address to send the payment to</source>
+        <translation>QpayCoin-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2146,8 +2146,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the ValinorCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ValinorCoin network.</source>
-        <translation>Eine an die ValinorCoin-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das ValinorCoin-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the QpayCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the QpayCoin network.</source>
+        <translation>Eine an die QpayCoin-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das QpayCoin-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2173,8 +2173,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>ValinorCoin Core is shutting down...</source>
-        <translation>ValinorCoin Core wird beendet...</translation>
+        <source>QpayCoin Core is shutting down...</source>
+        <translation>QpayCoin Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2188,8 +2188,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>ValinorCoin Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The QpayCoin address to sign the message with</source>
+        <translation>QpayCoin Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2216,16 +2216,16 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese ValinorCoin Adresse besitzt</translation>
+        <source>Sign the message to prove you own this QpayCoin address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese QpayCoin Adresse besitzt</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>Die ValinorCoin Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The QpayCoin address the message was signed with</source>
+        <translation>Die QpayCoin Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen ValinorCoin-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified QpayCoin address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen QpayCoin-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2263,8 +2263,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2279,8 +2279,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The ValinorCoin Core developers</source>
-        <translation>Die ValinorCoin Core Entwickler</translation>
+        <source>The QpayCoin Core developers</source>
+        <translation>Die QpayCoin Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2847,7 +2847,7 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
     </message>
 </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>qpaycoin-core</name>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>
@@ -2997,8 +2997,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart ValinorCoin Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte ValinorCoin Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart QpayCoin Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte QpayCoin Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

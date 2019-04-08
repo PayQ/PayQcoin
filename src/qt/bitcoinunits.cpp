@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The ValinorCoin developers
+// Copyright (c) 2018 The QpayCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,11 +42,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case VPC:
-        return QString("valinorcoin");
+        return QString("qpaycoin");
     case mVPC:
-        return QString("mvalinorcoin");
+        return QString("mqpaycoin");
     case uVPC:
-        return QString::fromUtf8("uvalinorcoin");
+        return QString::fromUtf8("uqpaycoin");
     default:
         return QString("???");
     }

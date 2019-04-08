@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between valinorcoin-cli and valinorcoind)
- * of a given instance of the Valinorcoin system.
+ * CBaseChainParams defines the base parameters (shared between qpaycoin-cli and qpaycoind)
+ * of a given instance of the Qpaycoin system.
  */
 class CBaseChainParams
 {

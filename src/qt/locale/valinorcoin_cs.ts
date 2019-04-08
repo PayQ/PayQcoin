@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše ValinorCoin adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your QpayCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše QpayCoin adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše ValinorCoin adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your QpayCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše QpayCoin adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
-        <translation>ValinorCoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše VPCy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>QpayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>QpayCoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše VPCy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte ValinorCoin adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a Qpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte QpayCoin adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>ValinorCoin adresa pro podepsání zprávy</translation>
+        <source>The QpayCoin address to sign the message with</source>
+        <translation>QpayCoin adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto ValinorCoin adresu</translation>
+        <source>Sign the message to prove you own this QpayCoin address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto QpayCoin adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>ValinorCoin adresa zprávy byla podpsána</translation>
+        <source>The QpayCoin address the message was signed with</source>
+        <translation>QpayCoin adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou ValinorCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified QpayCoin address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou QpayCoin adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a ValinorCoin address</source>
-        <translation>Odeslat platbuna ValinorCoin adresu</translation>
+        <source>Send coins to a QpayCoin address</source>
+        <translation>Odeslat platbuna QpayCoin adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a valinorcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and qpaycoin: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a qpaycoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About ValinorCoin Core</source>
-        <translation>&amp;O ValinorCoin Core</translation>
+        <source>&amp;About QpayCoin Core</source>
+        <translation>&amp;O QpayCoin Core</translation>
     </message>
     <message>
-        <source>Show information about ValinorCoin Core</source>
-        <translation>Zobraz informace o ValinorCoin Core</translation>
+        <source>Show information about QpayCoin Core</source>
+        <translation>Zobraz informace o QpayCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for ValinorCoin</source>
-        <translation>Upravit možnosti konfigurace pro ValinorCoin</translation>
+        <source>Modify configuration options for QpayCoin</source>
+        <translation>Upravit možnosti konfigurace pro QpayCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší ValinorCoin adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your QpayCoin addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší QpayCoin adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými ValinorCoin adresami</translation>
+        <source>Verify messages to ensure they were signed with specified QpayCoin addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými QpayCoin adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a ValinorCoin: URI or payment request</source>
-        <translation>Otevřít ValinorCoin: URI nebo platební žádost</translation>
+        <source>Open a QpayCoin: URI or payment request</source>
+        <translation>Otevřít QpayCoin: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
-        <translation>Zobrazit ValinorCoin Core pomocnou zpráv pro získání seznamu možných parametrů ValinorCoin pro příkazy do příkazové řádky</translation>
+        <source>Show the QpayCoin Core help message to get a list with possible QpayCoin command-line options</source>
+        <translation>Zobrazit QpayCoin Core pomocnou zpráv pro získání seznamu možných parametrů QpayCoin pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>ValinorCoin Core client</source>
-        <translation>ValinorCoin Core klient</translation>
+        <source>QpayCoin Core client</source>
+        <translation>QpayCoin Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (valinorcoin.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (qpaycoin.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (qpaycoin.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1070,8 +1070,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ValinorCoin address.</source>
-        <translation>Zadaná adresa "%1" není validní ValinorCoin adresa.</translation>
+        <source>The entered address "%1" is not a valid QpayCoin address.</source>
+        <translation>Zadaná adresa "%1" není validní QpayCoin adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1116,12 +1116,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
-        <source>About ValinorCoin Core</source>
-        <translation>O ValinorCoin Core</translation>
+        <source>About QpayCoin Core</source>
+        <translation>O QpayCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1155,16 +1155,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to ValinorCoin Core.</source>
-        <translation>Vítejte v ValinorCoin Core.</translation>
+        <source>Welcome to QpayCoin Core.</source>
+        <translation>Vítejte v QpayCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where ValinorCoin Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude ValinorCoin Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where QpayCoin Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude QpayCoin Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>ValinorCoin Core will download and store a copy of the ValinorCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>ValinorCoin Core stáhne a uloží kopii ValinorCoin blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>QpayCoin Core will download and store a copy of the QpayCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>QpayCoin Core stáhne a uloží kopii QpayCoin blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1175,8 +1175,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1524,16 +1524,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start ValinorCoin after logging in to the system.</source>
-        <translation>Automaticky spustit ValinorCoin po přihlášení do systému</translation>
+        <source>Automatically start QpayCoin after logging in to the system.</source>
+        <translation>Automaticky spustit QpayCoin po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start ValinorCoin on system login</source>
-        <translation>&amp;Spusti ValinorCoin při přihlášení do systému</translation>
+        <source>&amp;Start QpayCoin on system login</source>
+        <translation>&amp;Spusti QpayCoin při přihlášení do systému</translation>
     </message>
     <message>
-        <source>Amount of ValinorCoin to keep anonymized</source>
-        <translation>Počet ValinorCoin pro anonymní držení</translation>
+        <source>Amount of QpayCoin to keep anonymized</source>
+        <translation>Počet QpayCoin pro anonymní držení</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2199,8 +2199,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>ValinorCoin adresa pro podepsání zprávy</translation>
+        <source>The QpayCoin address to sign the message with</source>
+        <translation>QpayCoin adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2227,16 +2227,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto ValinorCoin adresu</translation>
+        <source>Sign the message to prove you own this QpayCoin address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto QpayCoin adresu</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>ValinorCoin adresa zprávy byla podpsána</translation>
+        <source>The QpayCoin address the message was signed with</source>
+        <translation>QpayCoin adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou ValinorCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified QpayCoin address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou QpayCoin adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2278,8 +2278,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     </context>
 <context>
@@ -2382,7 +2382,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>qpaycoin-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

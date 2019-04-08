@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
-        <source>&amp;About ValinorCoin Core</source>
-        <translation>&amp;Sobre ValinorCoin Core</translation>
+        <source>&amp;About QpayCoin Core</source>
+        <translation>&amp;Sobre QpayCoin Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
-        <source>About ValinorCoin Core</source>
-        <translation>Sobre ValinorCoin Core</translation>
+        <source>About QpayCoin Core</source>
+        <translation>Sobre QpayCoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to ValinorCoin Core.</source>
-        <translation>Benvingut a ValinorCoin Core.</translation>
+        <source>Welcome to QpayCoin Core.</source>
+        <translation>Benvingut a QpayCoin Core.</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1132,8 +1132,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1292,7 +1292,7 @@
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>qpaycoin-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

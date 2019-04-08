@@ -1,12 +1,12 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The ValinorCoin developers
+// Copyright (c) 2018 The QpayCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/valinorcoin-config.h"
+#include "config/qpaycoin-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -76,11 +76,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizeValinorcoinAmount"))
-        settings.setValue("nAnonymizeValinorcoinAmount", 1000);
+    if (!settings.contains("nAnonymizeQpaycoinAmount"))
+        settings.setValue("nAnonymizeQpaycoinAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizeValinorcoinAmount = settings.value("nAnonymizeValinorcoinAmount").toLongLong();
+    nAnonymizeQpaycoinAmount = settings.value("nAnonymizeQpaycoinAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -147,8 +147,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeValinorcoinAmount"))
-        SoftSetArg("-anonymizevalinorcoinamount", settings.value("nAnonymizeValinorcoinAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeQpaycoinAmount"))
+        SoftSetArg("-anonymizeqpaycoinamount", settings.value("nAnonymizeQpaycoinAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -159,7 +159,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in valinorcoin.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in qpaycoin.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -228,8 +228,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizeValinorcoinAmount:
-            return QVariant(nAnonymizeValinorcoinAmount);
+        case AnonymizeQpaycoinAmount:
+            return QVariant(nAnonymizeQpaycoinAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -338,10 +338,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizeValinorcoinAmount:
-            nAnonymizeValinorcoinAmount = value.toInt();
-            settings.setValue("nAnonymizeValinorcoinAmount", nAnonymizeValinorcoinAmount);
-            emit anonymizeValinorcoinAmountChanged(nAnonymizeValinorcoinAmount);
+        case AnonymizeQpaycoinAmount:
+            nAnonymizeQpaycoinAmount = value.toInt();
+            settings.setValue("nAnonymizeQpaycoinAmount", nAnonymizeQpaycoinAmount);
+            emit anonymizeQpaycoinAmountChanged(nAnonymizeQpaycoinAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

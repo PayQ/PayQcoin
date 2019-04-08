@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
-        <translation>ValinorCoin va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos VPCs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>QpayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>QpayCoin va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos VPCs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Valinorcoin que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a Qpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse Qpaycoin que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>L'adresse ValinorCoin avec laquelle signer le message</translation>
+        <source>The QpayCoin address to sign the message with</source>
+        <translation>L'adresse QpayCoin avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse ValinorCoin</translation>
+        <source>Sign the message to prove you own this QpayCoin address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse QpayCoin</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>L'adresse ValinorCoin avec laquelle le message a été signé</translation>
+        <source>The QpayCoin address the message was signed with</source>
+        <translation>L'adresse QpayCoin avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse ValinorCoin renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified QpayCoin address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse QpayCoin renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a ValinorCoin address</source>
-        <translation>Envoyer des pièces à une adresse ValinorCoin</translation>
+        <source>Send coins to a QpayCoin address</source>
+        <translation>Envoyer des pièces à une adresse QpayCoin</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for ValinorCoin</source>
-        <translation>Modifier les options de configuration pour ValinorCoin</translation>
+        <source>Modify configuration options for QpayCoin</source>
+        <translation>Modifier les options de configuration pour QpayCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse ValinorCoin pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your QpayCoin addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse QpayCoin pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse ValinorCoin spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified QpayCoin addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse QpayCoin spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (valinorcoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (qpaycoin.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (qpaycoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ValinorCoin address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse ValinorCoin valide</translation>
+        <source>The entered address "%1" is not a valid QpayCoin address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse QpayCoin valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1461,8 +1461,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to send the payment to</source>
-        <translation>L'adresse ValinorCoin à laquelle envoyer le paiement</translation>
+        <source>The QpayCoin address to send the payment to</source>
+        <translation>L'adresse QpayCoin à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1507,8 +1507,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>L'adresse ValinorCoin avec laquelle signer le message</translation>
+        <source>The QpayCoin address to sign the message with</source>
+        <translation>L'adresse QpayCoin avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1535,16 +1535,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse ValinorCoin</translation>
+        <source>Sign the message to prove you own this QpayCoin address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse QpayCoin</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>L'adresse ValinorCoin avec laquelle le message a été signé</translation>
+        <source>The QpayCoin address the message was signed with</source>
+        <translation>L'adresse QpayCoin avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse ValinorCoin renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified QpayCoin address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse QpayCoin renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1738,7 +1738,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>qpaycoin-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

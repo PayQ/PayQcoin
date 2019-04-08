@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ValinorCoin jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this QpayCoin address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres QpayCoin jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
+        <source>QpayCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
-        <source>Send coins to a ValinorCoin address</source>
-        <translation>Wyślij monety do adresu ValinorCoin</translation>
+        <source>Send coins to a QpayCoin address</source>
+        <translation>Wyślij monety do adresu QpayCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i valinorcoin:URI)</translation>
+        <source>Request payments (generates QR codes and qpaycoin: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i qpaycoin:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ValinorCoin Core</source>
+        <source>&amp;About QpayCoin Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about ValinorCoin Core</source>
+        <source>Show information about QpayCoin Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for ValinorCoin</source>
-        <translation>Modyfikuj opcje konfiguracji ValinorCoin</translation>
+        <source>Modify configuration options for QpayCoin</source>
+        <translation>Modyfikuj opcje konfiguracji QpayCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami ValinorCoin, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your QpayCoin addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami QpayCoin, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu ValinorCoin</translation>
+        <source>Verify messages to ensure they were signed with specified QpayCoin addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu QpayCoin</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a ValinorCoin: URI or payment request</source>
-        <translation>Otwórz ValinorCoin: URI i żądanie zapłaty</translation>
+        <source>Open a QpayCoin: URI or payment request</source>
+        <translation>Otwórz QpayCoin: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia ValinorCoin, aby dostać listę możliwych opcji ValinorCoin command-line</translation>
+        <source>Show the QpayCoin Core help message to get a list with possible QpayCoin command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia QpayCoin, aby dostać listę możliwych opcji QpayCoin command-line</translation>
     </message>
     <message>
-        <source>ValinorCoin Core client</source>
-        <translation>Rdzeń ValinorCoin klient</translation>
+        <source>QpayCoin Core client</source>
+        <translation>Rdzeń QpayCoin klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -916,7 +916,7 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ValinorCoin Core</source>
+        <source>QpayCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -931,7 +931,7 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
+        <source>QpayCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
@@ -1192,16 +1192,16 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start ValinorCoin after logging in to the system.</source>
-        <translation>Automatycznie uruchom ValinorCoin po zalogowaniu do systemu</translation>
+        <source>Automatically start QpayCoin after logging in to the system.</source>
+        <translation>Automatycznie uruchom QpayCoin po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start ValinorCoin on system login</source>
-        <translation>&amp;Uruchom ValinorCoin podczas logowania do systemu</translation>
+        <source>&amp;Start QpayCoin on system login</source>
+        <translation>&amp;Uruchom QpayCoin podczas logowania do systemu</translation>
     </message>
     <message>
-        <source>Amount of ValinorCoin to keep anonymized</source>
-        <translation>Liczba ValinorCoin do anonimizacji</translation>
+        <source>Amount of QpayCoin to keep anonymized</source>
+        <translation>Liczba QpayCoin do anonimizacji</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1220,18 +1220,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting ValinorCoin.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie ValinorCoin</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting QpayCoin.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie QpayCoin</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</source>
+https://www.transifex.com/qpaycoin-project/qpaycoin-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations </translation>
+https://www.transifex.com/qpaycoin-project/qpaycoin-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the ValinorCoin network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią ValinorCoin poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the QpayCoin network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią QpayCoin poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1458,8 +1458,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations <
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a ValinorCoin address (e.g. %1)</source>
-        <translation>Wprowadź adres ValinorCoin (np. %1)</translation>
+        <source>Enter a QpayCoin address (e.g. %1)</source>
+        <translation>Wprowadź adres QpayCoin (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1897,8 +1897,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations <
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ValinorCoin jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this QpayCoin address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres QpayCoin jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1932,7 +1932,7 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations <
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ValinorCoin Core</source>
+        <source>QpayCoin Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations <
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>qpaycoin-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

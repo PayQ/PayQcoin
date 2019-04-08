@@ -1,39 +1,39 @@
-ValinorCoin Core
+QpayCoin Core
 =====================
 
 Setup
 ---------------------
-[ValinorCoin Core](http://valinorcoin.org/wallet) is the original ValinorCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of ValinorCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[QpayCoin Core](http://qpaycoin.org/wallet) is the original QpayCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of QpayCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run ValinorCoin on your native platform.
+The following are some helpful notes on how to run QpayCoin on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/valinorcoin-qt (GUI, 32-bit) or bin/32/valinorcoind (headless, 32-bit)
-- bin/64/valinorcoin-qt (GUI, 64-bit) or bin/64/valinorcoind (headless, 64-bit)
+- bin/32/qpaycoin-qt (GUI, 32-bit) or bin/32/qpaycoind (headless, 32-bit)
+- bin/64/qpaycoin-qt (GUI, 64-bit) or bin/64/qpaycoind (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run valinorcoin-qt.exe.
+Unpack the files into a directory, and then run qpaycoin-qt.exe.
 
 ### OSX
 
-Drag ValinorCoin-Qt to your applications folder, and then run ValinorCoin-Qt.
+Drag QpayCoin-Qt to your applications folder, and then run QpayCoin-Qt.
 
 ### Need Help?
 
-* See the documentation at the [ValinorCoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [QpayCoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [ValinorCoin Forum](http://forum.valinorcoin.org/).
-* Join one of our Slack groups [ValinorCoin Slack Groups](https://valinorcoin.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [QpayCoin Forum](http://forum.qpaycoin.org/).
+* Join one of our Slack groups [QpayCoin Slack Groups](https://qpaycoin.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build ValinorCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build QpayCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build ValinorCoin on your native pla
 
 Development
 ---------------------
-The Valinorcoin repo's [root README](https://github.com/ValinorCoin-Project/ValinorCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Qpaycoin repo's [root README](https://github.com/QpayCoin-Project/QpayCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The Valinorcoin repo's [root README](https://github.com/ValinorCoin-Project/Vali
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [ValinorCoin](http://forum.valinorcoin.org/) forum.
-* Join the [ValinorCoin-Dev](https://valinorcoin-dev.slack.com/) Slack group ([Sign-Up](https://valinorcoin-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [QpayCoin](http://forum.qpaycoin.org/) forum.
+* Join the [QpayCoin-Dev](https://qpaycoin-dev.slack.com/) Slack group ([Sign-Up](https://qpaycoin-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The ValinorCoin developers
+// Copyright (c) 2018 The QpayCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -57,7 +57,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (0, uint256("700e31bbd6e277aab04da8916472abbd162ff9aa6e1e0010ad7b9f1b941886d6"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1554238800, // * UNIX timestamp of last checkpoint block
+    1554743587, // * UNIX timestamp of last checkpoint block
     0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     3000        // * estimated number of transactions per day after checkpoint
@@ -67,7 +67,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1554238800,
+    1554743587,
     0,
     250};
 
@@ -75,7 +75,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1554238800,
+    1554743587,
     0,
     100};
 
@@ -97,20 +97,20 @@ public:
         pchMessageStart[3] = 0x3b;
         vAlertPubKey = ParseHex("041babfe7f012d2a85edac110ebdfaff0f4c5fdea78ec811703d921de824d5979eea2aea703b15bda37c7add3248fb85f89a5c45cfafe85b78af33905613a95a52");
         nDefaultPort = 39777;
-        bnProofOfWorkLimit = ~uint256(0) >> 2; // ValinorCoin starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 2; // QpayCoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 8100;
         nRejectBlockOutdatedMajority = 10260;
         nToCheckBlockUpgradeMajority = 10800;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // ValinorCoin: 1 day
-        nTargetSpacing = 1 * 60;  // ValinorCoin: 1 minute
+        nTargetTimespan = 1 * 60; // QpayCoin: 1 day
+        nTargetSpacing = 0.5 * 60;  // QpayCoin: 1 minute
         nLastPOWBlock = 525000;
         nMaturity = 60;
         nMasternodeCountDrift = 20;
         nMasternodeCollateralLimit = 100000000000;
-        nModifierUpdateBlock = 615800;
+        nModifierUpdateBlock = 1440;
         nMaxMoneyOut = 2100000000000000 * COIN;
 
         /**
@@ -123,7 +123,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Valinorcoin is a coin for an economic gaming system built on a chain of blocks";
+        const char* pszTimestamp = "Qpaycoin is a coin for an economic gaming system built on a chain of blocks";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -134,7 +134,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1554238800;
+        genesis.nTime = 1554743587;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 2394236;
 
@@ -169,7 +169,7 @@ public:
         strSporkKey = "04a800fd21d66d68fb5ca725403cabed0af5b8b3940912ad09324d9cabe140c507829b68faa231c4f6a7f6761df69bdbdce5d86d78f34cbbb74d1339036b6d91c5";
         strObfuscationPoolDummyAddress = "LpsJZBr1c9CMADAN84HykYZa2HU8upiYfN";
 		
-        nStartMasternodePayments = 1554238800; // Wed, 03 Apr 2019 00:00:00 GMT
+        nStartMasternodePayments = 1554743587; // Wed, 03 Apr 2019 00:00:00 GMT
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
@@ -199,8 +199,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // ValinorCoin: 1 day
-        nTargetSpacing = 1 * 60;  // ValinorCoin: 1 minute
+        nTargetTimespan = 1 * 60; // QpayCoin: 1 day
+        nTargetSpacing = 1 * 60;  // QpayCoin: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -209,7 +209,7 @@ public:
         nMaxMoneyOut = 43199500 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1554238800;
+        genesis.nTime = 1554743587;
         genesis.nNonce = 2394236;
 
         hashGenesisBlock = genesis.GetHash();
@@ -221,14 +221,14 @@ public:
         vSeeds.push_back(CDNSSeedData("80.211.202.181", "80.211.202.181"));         // Single node address
         vSeeds.push_back(CDNSSeedData("94.177.187.54", "94.177.187.54"));           // Single node address
 */
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet valinorcoin addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet valinorcoin script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet qpaycoin addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet qpaycoin script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet valinorcoin BIP32 pubkeys start with 'DRKV'
+        // Testnet qpaycoin BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet valinorcoin BIP32 prvkeys start with 'DRKP'
+        // Testnet qpaycoin BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet valinorcoin BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet qpaycoin BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -245,7 +245,7 @@ public:
         nPoolMaxTransactions = 2;
         strSporkKey = "04ca864ee5e01ddf5ec4db13d7df059ce12741a9c90fb68ba2c84695b1d2217b143fbb86c9e7cd37a27161b1da170ed12b1d7ecfb8d84b70ebd2eab29f9871d556";
         strObfuscationPoolDummyAddress = "LrJNYbKU6up2VRtWdvhzV4MZJN9hii6VCK";
-        nStartMasternodePayments = 1554238800; // Wed, 03 Apr 2019 00:00:00 GMT
+        nStartMasternodePayments = 1554743587; // Wed, 03 Apr 2019 00:00:00 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -274,10 +274,10 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // ValinorCoin: 1 day
-        nTargetSpacing = 1 * 60;        // ValinorCoin: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // QpayCoin: 1 day
+        nTargetSpacing = 1 * 60;        // QpayCoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1554238800;
+        genesis.nTime = 1554743587;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 906460;
 

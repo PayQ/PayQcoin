@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The ValinorCoin developers
+// Copyright (c) 2018 The QpayCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@
 #define BITCOIN_MAIN_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/valinorcoin-config.h"
+#include "config/qpaycoin-config.h"
 #endif
 
 #include "amount.h"
@@ -53,22 +53,22 @@ struct CBlockTemplate;
 struct CNodeStateStats;
 
 /** Default for -blockmaxsize and -blockminsize, which control the range of sizes the mining code will create **/
-static const unsigned int DEFAULT_BLOCK_MAX_SIZE = 750000;
+static const unsigned int DEFAULT_BLOCK_MAX_SIZE = 1500000;
 static const unsigned int DEFAULT_BLOCK_MIN_SIZE = 0;
 /** Default for -blockprioritysize, maximum space for zero/low-fee transactions **/
 static const unsigned int DEFAULT_BLOCK_PRIORITY_SIZE = 50000;
 /** Default for accepting alerts from the P2P network. */
 static const bool DEFAULT_ALERTS = true;
 /** The maximum size for transactions we're willing to relay/mine */
-static const unsigned int MAX_STANDARD_TX_SIZE = 100000;
+static const unsigned int MAX_STANDARD_TX_SIZE = 200000;
 /** The maximum allowed number of signature check operations in a block (network rule) */
-static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE / 50;
+static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE / 100;
 /** Maximum number of signature check operations in an IsStandard() P2SH script */
-static const unsigned int MAX_P2SH_SIGOPS = 15;
+static const unsigned int MAX_P2SH_SIGOPS = 20;
 /** The maximum number of sigops we're willing to relay/mine in a single tx */
-static const unsigned int MAX_TX_SIGOPS = MAX_BLOCK_SIGOPS / 5;
+static const unsigned int MAX_TX_SIGOPS = MAX_BLOCK_SIGOPS / 10;
 /** Default for -maxorphantx, maximum number of orphan transactions kept in memory */
-static const unsigned int DEFAULT_MAX_ORPHAN_TRANSACTIONS = 100;
+static const unsigned int DEFAULT_MAX_ORPHAN_TRANSACTIONS = 1000;
 /** The maximum size of a blk?????.dat file (since 0.8) */
 static const unsigned int MAX_BLOCKFILE_SIZE = 0x8000000; // 128 MiB
 /** The pre-allocation chunk size for blk?????.dat files (since 0.8) */
@@ -76,17 +76,17 @@ static const unsigned int BLOCKFILE_CHUNK_SIZE = 0x1000000; // 16 MiB
 /** The pre-allocation chunk size for rev?????.dat files (since 0.8) */
 static const unsigned int UNDOFILE_CHUNK_SIZE = 0x100000; // 1 MiB
 /** Coinbase transaction outputs can only be spent after this number of new blocks (network rule) */
-static const int COINBASE_MATURITY = 100;
+static const int COINBASE_MATURITY = 1000;
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 /** Maximum number of script-checking threads allowed */
-static const int MAX_SCRIPTCHECK_THREADS = 16;
+static const int MAX_SCRIPTCHECK_THREADS = 32;
 /** -par default (number of script-checking threads, 0 = auto) */
 static const int DEFAULT_SCRIPTCHECK_THREADS = 0;
 /** Number of blocks that can be requested at any given time from a single peer. */
-static const int MAX_BLOCKS_IN_TRANSIT_PER_PEER = 16;
+static const int MAX_BLOCKS_IN_TRANSIT_PER_PEER = 32;
 /** Timeout in seconds during which a peer must stall block download progress before being disconnected. */
-static const unsigned int BLOCK_STALLING_TIMEOUT = 2;
+static const unsigned int BLOCK_STALLING_TIMEOUT = 4;
 /** Number of headers sent in one getheaders result. We rely on the assumption that if a peer sends
  *  less than this number, we reached their tip. Changing this value is a protocol upgrade. */
 static const unsigned int MAX_HEADERS_RESULTS = 2000;

@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços ValinorCoin para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your QpayCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços QpayCoin para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços ValinorCoin para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your QpayCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços QpayCoin para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
-        <translation>ValinorCoin vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas VPCs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>QpayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>QpayCoin vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas VPCs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -235,7 +235,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Qpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>O endereço ValinorCoin para assinar a mensagem</translation>
+        <source>The QpayCoin address to sign the message with</source>
+        <translation>O endereço QpayCoin para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço ValinorCoin</translation>
+        <source>Sign the message to prove you own this QpayCoin address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço QpayCoin</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -291,12 +291,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>O endereço ValinorCoin que assinou a mensagem</translation>
+        <source>The QpayCoin address the message was signed with</source>
+        <translation>O endereço QpayCoin que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço ValinorCoin especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified QpayCoin address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço QpayCoin especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,16 +586,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a ValinorCoin address</source>
-        <translation>Enviar moedas para um endereço ValinorCoin</translation>
+        <source>Send coins to a QpayCoin address</source>
+        <translation>Enviar moedas para um endereço QpayCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e valinorcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and qpaycoin: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e qpaycoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ValinorCoin Core</source>
-        <translation>&amp;Sobre o ValinorCoin Core</translation>
+        <source>&amp;About QpayCoin Core</source>
+        <translation>&amp;Sobre o QpayCoin Core</translation>
     </message>
     <message>
-        <source>Show information about ValinorCoin Core</source>
-        <translation>Mostra informação sobre o ValinorCoin Core</translation>
+        <source>Show information about QpayCoin Core</source>
+        <translation>Mostra informação sobre o QpayCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for ValinorCoin</source>
-        <translation>Modificar opções de configuração para ValinorCoin</translation>
+        <source>Modify configuration options for QpayCoin</source>
+        <translation>Modificar opções de configuração para QpayCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços ValinorCoin para provar que você os detém</translation>
+        <source>Sign messages with your QpayCoin addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços QpayCoin para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços ValinorCoin especificados</translation>
+        <source>Verify messages to ensure they were signed with specified QpayCoin addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços QpayCoin especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a ValinorCoin: URI or payment request</source>
-        <translation>Abrir um ValinorCoin: URI ou requisição de pagamento</translation>
+        <source>Open a QpayCoin: URI or payment request</source>
+        <translation>Abrir um QpayCoin: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
-        <translation>Mostra a ajuda da ValinorCoin Core para receber uma lista com possíveis opções de linha de comando ValinorCoin</translation>
+        <source>Show the QpayCoin Core help message to get a list with possible QpayCoin command-line options</source>
+        <translation>Mostra a ajuda da QpayCoin Core para receber uma lista com possíveis opções de linha de comando QpayCoin</translation>
     </message>
     <message>
-        <source>ValinorCoin Core client</source>
-        <translation>Cliente Core ValinorCoin</translation>
+        <source>QpayCoin Core client</source>
+        <translation>Cliente Core QpayCoin</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -806,8 +806,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (valinorcoin.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (qpaycoin.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (qpaycoin.conf). </translation>
     </message>
 </context>
 <context>
@@ -1095,8 +1095,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ValinorCoin address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de ValinorCoin</translation>
+        <source>The entered address "%1" is not a valid QpayCoin address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de QpayCoin</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1141,16 +1141,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About ValinorCoin Core</source>
-        <translation>Sobre o ValinorCoin Core</translation>
+        <source>About QpayCoin Core</source>
+        <translation>Sobre o QpayCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1184,16 +1184,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to ValinorCoin Core.</source>
-        <translation>Bem-vindo ao ValinorCoin Core.</translation>
+        <source>Welcome to QpayCoin Core.</source>
+        <translation>Bem-vindo ao QpayCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where ValinorCoin Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde ValinorCoin Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where QpayCoin Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde QpayCoin Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>ValinorCoin Core will download and store a copy of the ValinorCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>ValinorCoin Core vai baixar e armazenar uma cópia da blockchain ValinorCoin. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>QpayCoin Core will download and store a copy of the QpayCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>QpayCoin Core vai baixar e armazenar uma cópia da blockchain QpayCoin. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1204,8 +1204,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1492,16 +1492,16 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening ValinorCoin's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela ValinorCoin's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening QpayCoin's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela QpayCoin's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening ValinorCoin's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela ValinorCoin's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening QpayCoin's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela QpayCoin's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening ValinorCoin's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela ValinorCoin's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening QpayCoin's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela QpayCoin's.</translation>
     </message>
 </context>
 <context>
@@ -1554,8 +1554,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the ValinorCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente ValinorCoin no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the QpayCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente QpayCoin no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1574,12 +1574,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start ValinorCoin after logging in to the system.</source>
-        <translation>Iniciar automaticamente ValinorCoin depois de logar no sistema.</translation>
+        <source>Automatically start QpayCoin after logging in to the system.</source>
+        <translation>Iniciar automaticamente QpayCoin depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start ValinorCoin on system login</source>
-        <translation>&amp;Iniciar ValinorCoin ao logar no sistema</translation>
+        <source>&amp;Start QpayCoin on system login</source>
+        <translation>&amp;Iniciar QpayCoin ao logar no sistema</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1590,8 +1590,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Rodadas de ofuscação para usar</translation>
     </message>
     <message>
-        <source>Amount of ValinorCoin to keep anonymized</source>
-        <translation>Quantidade de ValinorCoin a manter anônima</translation>
+        <source>Amount of QpayCoin to keep anonymized</source>
+        <translation>Quantidade de QpayCoin a manter anônima</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1606,18 +1606,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting ValinorCoin.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do ValinorCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting QpayCoin.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do QpayCoin.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</source>
+https://www.transifex.com/qpaycoin-project/qpaycoin-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</translation>
+https://www.transifex.com/qpaycoin-project/qpaycoin-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the ValinorCoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede ValinorCoin através de um proxy SOCKS5</translation>
+        <source>Connect to the QpayCoin network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede QpayCoin através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1755,8 +1755,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>Fundos</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ValinorCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede ValinorCoin após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the QpayCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede QpayCoin após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1966,8 +1966,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a ValinorCoin address (e.g. %1)</source>
-        <translation>Insira um endereço ValinorCoin (e.g. %1)</translation>
+        <source>Enter a QpayCoin address (e.g. %1)</source>
+        <translation>Insira um endereço QpayCoin (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2216,8 +2216,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the ValinorCoin RPC console.</source>
-        <translation>Bem-vindo ao console da ValinorCoin RPC</translation>
+        <source>Welcome to the QpayCoin RPC console.</source>
+        <translation>Bem-vindo ao console da QpayCoin RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2520,8 +2520,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>Se a taxa padrão estiver definida para 1000 uVPCs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uVPCs em taxa,&lt;br /&gt; pagará pelo menos 1000 uVPCs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ValinorCoin transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de ValinorCoin do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for QpayCoin transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de QpayCoin do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2608,8 +2608,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid ValinorCoin address</source>
-        <translation>Aviso: endereço ValinorCoin inválido</translation>
+        <source>Warning: Invalid QpayCoin address</source>
+        <translation>Aviso: endereço QpayCoin inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2703,8 +2703,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to send the payment to</source>
-        <translation>O endereço ValinorCoin para enviar o pagamento</translation>
+        <source>The QpayCoin address to send the payment to</source>
+        <translation>O endereço QpayCoin para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2766,8 +2766,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>ValinorCoin Core is shutting down...</source>
-        <translation>ValinorCoin Core está desligando...</translation>
+        <source>QpayCoin Core is shutting down...</source>
+        <translation>QpayCoin Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2785,8 +2785,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The ValinorCoin address to sign the message with</source>
-        <translation>O endereço ValinorCoin para assinar a mensagem</translation>
+        <source>The QpayCoin address to sign the message with</source>
+        <translation>O endereço QpayCoin para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2817,16 +2817,16 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ValinorCoin address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço ValinorCoin</translation>
+        <source>Sign the message to prove you own this QpayCoin address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço QpayCoin</translation>
     </message>
     <message>
-        <source>The ValinorCoin address the message was signed with</source>
-        <translation>O endereço ValinorCoin que assinou a mensagem</translation>
+        <source>The QpayCoin address the message was signed with</source>
+        <translation>O endereço QpayCoin que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço ValinorCoin especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified QpayCoin address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço QpayCoin especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2908,8 +2908,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ValinorCoin Core</source>
-        <translation>ValinorCoin Core</translation>
+        <source>QpayCoin Core</source>
+        <translation>QpayCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2924,8 +2924,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The ValinorCoin Core developers</source>
-        <translation>Os desenvolvedores do ValinorCoin Core</translation>
+        <source>The QpayCoin Core developers</source>
+        <translation>Os desenvolvedores do QpayCoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3452,14 +3452,14 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
     </message>
 </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>qpaycoin-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all ValinorCoin specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas ValinorCoin (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all QpayCoin specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas QpayCoin (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Enable use of automated obfuscation for funds stored in this wallet (0-1, default: %u)</source>
@@ -3522,8 +3522,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ValinorCoin Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core ValinorCoin não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong QpayCoin Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core QpayCoin não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3602,8 +3602,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The ValinorCoin Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do ValinorCoin Core</translation>
+        <source>Copyright (C) 2015-%i The QpayCoin Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do QpayCoin Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3654,8 +3654,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of ValinorCoin Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da ValinorCoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of QpayCoin Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da QpayCoin Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4142,8 +4142,8 @@ https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart ValinorCoin Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o ValinorCoin Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart QpayCoin Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o QpayCoin Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

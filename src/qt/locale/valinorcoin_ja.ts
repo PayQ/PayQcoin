@@ -260,6 +260,6 @@
     </message>
     </context>
 <context>
-    <name>valinorcoin-core</name>
+    <name>qpaycoin-core</name>
     </context>
 </TS>

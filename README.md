@@ -1,12 +1,12 @@
-ValinorCoin (fork of PIVX) integration/staging repository
+QpayCoin (fork of PIVX) integration/staging repository
 ======================================
 
 
-It is recommended [use the shell script](https://github.com/vpcproject/vpcinstall) to install a ValinorCoin Masternode on a Linux server running Ubuntu 14.04 or 16.04
+It is recommended [use the shell script](https://github.com/vpcproject/vpcinstall) to install a QpayCoin Masternode on a Linux server running Ubuntu 14.04 or 16.04
 
 ***
 
-Quick installation of the ValinorCoin daemon under linux. See detailed instructions there [build-unix.md](build-unix.md)
+Quick installation of the QpayCoin daemon under linux. See detailed instructions there [build-unix.md](build-unix.md)
 
 Installation of libraries (using root user):
 
@@ -19,33 +19,33 @@ Installation of libraries (using root user):
 Cloning the repository and compiling (use any user with the sudo group):
 
     cd
-    git clone https://github.com/vpcproject/ValinorCoin.git
-    cd ValinorCoin
+    git clone https://github.com/vpcproject/QpayCoin.git
+    cd QpayCoin
     ./autogen.sh
     ./configure
     sudo make install
     cd src
-    sudo strip valinorcoind
-    sudo strip valinorcoin-cli
-    sudo strip valinorcoin-tx
+    sudo strip qpaycoind
+    sudo strip qpaycoin-cli
+    sudo strip qpaycoin-tx
     cd ..
 
 Running the daemon:
 
-    valinorcoind 
+    qpaycoind 
 
 Stopping the daemon:
 
-    valinorcoin-cli stop
+    qpaycoin-cli stop
 
 Demon status:
 
-    valinorcoin-cli getinfo
-    valinorcoin-cli mnsync status
+    qpaycoin-cli getinfo
+    qpaycoin-cli mnsync status
 
 All binaries for different operating systems, you can download in the releases repository:
 
-https://github.com/vpcproject/ValinorCoin/releases
+https://github.com/vpcproject/QpayCoin/releases
 
 P2P port: 39777, RPC port: 39778
 -

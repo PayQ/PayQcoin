@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The ValinorCoin developers
+// Copyright (c) 2018 The QpayCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -220,10 +220,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop ValinorCoin server.");
+            "\nStop QpayCoin server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "ValinorCoin server stopping";
+    return "QpayCoin server stopping";
 }
 
 
@@ -300,36 +300,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Valinorcoin features */
-        {"valinorcoin", "masternode", &masternode, true, true, false},
-        {"valinorcoin", "listmasternodes", &listmasternodes, true, true, false},
-        {"valinorcoin", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"valinorcoin", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"valinorcoin", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"valinorcoin", "masternodedebug", &masternodedebug, true, true, false},
-        {"valinorcoin", "startmasternode", &startmasternode, true, true, false},
-        {"valinorcoin", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"valinorcoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"valinorcoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"valinorcoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"valinorcoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"valinorcoin", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"valinorcoin", "mnbudget", &mnbudget, true, true, false},
-        {"valinorcoin", "preparebudget", &preparebudget, true, true, false},
-        {"valinorcoin", "submitbudget", &submitbudget, true, true, false},
-        {"valinorcoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"valinorcoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"valinorcoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"valinorcoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"valinorcoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"valinorcoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"valinorcoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"valinorcoin", "checkbudgets", &checkbudgets, true, true, false},
-        {"valinorcoin", "mnsync", &mnsync, true, true, false},
-        {"valinorcoin", "spork", &spork, true, true, false},
-        {"valinorcoin", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* Qpaycoin features */
+        {"qpaycoin", "masternode", &masternode, true, true, false},
+        {"qpaycoin", "listmasternodes", &listmasternodes, true, true, false},
+        {"qpaycoin", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"qpaycoin", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"qpaycoin", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"qpaycoin", "masternodedebug", &masternodedebug, true, true, false},
+        {"qpaycoin", "startmasternode", &startmasternode, true, true, false},
+        {"qpaycoin", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"qpaycoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"qpaycoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"qpaycoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"qpaycoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"qpaycoin", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"qpaycoin", "mnbudget", &mnbudget, true, true, false},
+        {"qpaycoin", "preparebudget", &preparebudget, true, true, false},
+        {"qpaycoin", "submitbudget", &submitbudget, true, true, false},
+        {"qpaycoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"qpaycoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"qpaycoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"qpaycoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"qpaycoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"qpaycoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"qpaycoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"qpaycoin", "checkbudgets", &checkbudgets, true, true, false},
+        {"qpaycoin", "mnsync", &mnsync, true, true, false},
+        {"qpaycoin", "spork", &spork, true, true, false},
+        {"qpaycoin", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"valinorcoin", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"qpaycoin", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -594,16 +594,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use valinorcoind, or the -server option to valinorcoin-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use qpaycoind, or the -server option to qpaycoin-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=valinorcoinrpc\n"
+                                               "rpcuser=qpaycoinrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"ValinorCoin Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"QpayCoin Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1054,7 +1054,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> valinorcoin-cli " + methodname + " " + args + "\n";
+    return "> qpaycoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

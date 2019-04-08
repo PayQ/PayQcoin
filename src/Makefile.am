@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += valinorcoind
+  bin_PROGRAMS += qpaycoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += valinorcoin-cli valinorcoin-tx
+  bin_PROGRAMS += qpaycoin-cli qpaycoin-tx
 endif
 
 .PHONY: FORCE
-# valinorcoin core #
+# qpaycoin core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -180,7 +180,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between valinorcoind and valinorcoin-qt
+# server: shared between qpaycoind and qpaycoin-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +224,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between valinorcoind and valinorcoin-qt, but only linked
+# wallet: shared between qpaycoind and qpaycoin-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between valinorcoind, and valinorcoin-qt and non-server tools
+# common: shared between qpaycoind, and qpaycoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between valinorcoin-cli and valinorcoin-qt
+# cli: shared between qpaycoin-cli and qpaycoin-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-valinorcoind_LDADD = \
+qpaycoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ valinorcoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-valinorcoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qpaycoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-valinorcoind_LDADD += libbitcoin_wallet.a
+qpaycoind_LDADD += libbitcoin_wallet.a
 endif
-valinorcoind_SOURCES = valinorcoind.cpp
+qpaycoind_SOURCES = qpaycoind.cpp
 #
 
 if TARGET_WINDOWS
-valinorcoind_SOURCES += valinorcoind-res.rc
+qpaycoind_SOURCES += qpaycoind-res.rc
 endif
 
-valinorcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-valinorcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-valinorcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qpaycoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+qpaycoind_CPPFLAGS = $(BITCOIN_INCLUDES)
+qpaycoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# valinorcoin-cli binary #
-valinorcoin_cli_LDADD = \
+# qpaycoin-cli binary #
+qpaycoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-valinorcoin_cli_SOURCES = \
-  valinorcoin-cli.cpp
+qpaycoin_cli_SOURCES = \
+  qpaycoin-cli.cpp
 
-valinorcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+qpaycoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# valinorcoin-tx binary #
-valinorcoin_tx_LDADD = \
+# qpaycoin-tx binary #
+qpaycoin_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ valinorcoin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-valinorcoin_tx_SOURCES = valinorcoin-tx.cpp
-valinorcoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+qpaycoin_tx_SOURCES = qpaycoin-tx.cpp
+qpaycoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-valinorcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qpaycoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-valinorcoin_cli_SOURCES += valinorcoin-cli-res.rc
+qpaycoin_cli_SOURCES += qpaycoin-cli-res.rc
 endif
-valinorcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qpaycoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h
