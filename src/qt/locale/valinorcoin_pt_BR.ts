@@ -3538,8 +3538,8 @@ https://www.transifex.com/qpaycoin-project/qpaycoin-project-translations</transl
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(39777 could be used only on mainnet)</source>
-        <translation>(39777 could be used only on mainnet)</translation>
+        <source>(39177 could be used only on mainnet)</source>
+        <translation>(39177 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3550,8 +3550,8 @@ https://www.transifex.com/qpaycoin-project/qpaycoin-project-translations</transl
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 39777 for mainnet)</source>
-        <translation>(deve ser 39777 para mainnet)</translation>
+        <source>(must be 39177 for mainnet)</source>
+        <translation>(deve ser 39177 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>

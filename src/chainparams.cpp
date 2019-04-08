@@ -96,21 +96,21 @@ public:
         pchMessageStart[2] = 0x6c;
         pchMessageStart[3] = 0x3b;
         vAlertPubKey = ParseHex("041babfe7f012d2a85edac110ebdfaff0f4c5fdea78ec811703d921de824d5979eea2aea703b15bda37c7add3248fb85f89a5c45cfafe85b78af33905613a95a52");
-        nDefaultPort = 39777;
-        bnProofOfWorkLimit = ~uint256(0) >> 2; // QpayCoin starting difficulty is 1 / 2^12
+        nDefaultPort = 39177;
+        bnProofOfWorkLimit = ~uint256(0) >> 1; // QpayCoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
-        nEnforceBlockUpgradeMajority = 8100;
-        nRejectBlockOutdatedMajority = 10260;
-        nToCheckBlockUpgradeMajority = 10800;
+        nEnforceBlockUpgradeMajority = 15600;
+        nRejectBlockOutdatedMajority = 19760;
+        nToCheckBlockUpgradeMajority = 20800;
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // QpayCoin: 1 day
         nTargetSpacing = 0.5 * 60;  // QpayCoin: 1 minute
         nLastPOWBlock = 525000;
-        nMaturity = 60;
+        nMaturity = 100000;
         nMasternodeCountDrift = 20;
         nMasternodeCollateralLimit = 100000000000;
-        nModifierUpdateBlock = 1440;
+        nModifierUpdateBlock = 2880;
         nMaxMoneyOut = 2100000000000000 * COIN;
 
         /**
@@ -194,7 +194,7 @@ public:
         pchMessageStart[2] = 0x23;
         pchMessageStart[3] = 0x7f;
         vAlertPubKey = ParseHex("04d34163a727480c3e094f181975a3491873fdbfe689044480faa5f684731403a85434736aaa45c60093ab79eb9a7d72cb27461416dc8c837e7ea7a83ede23f3bd");
-        nDefaultPort = 39775;
+        nDefaultPort = 39175;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;

@@ -47,6 +47,6 @@ All binaries for different operating systems, you can download in the releases r
 
 https://github.com/vpcproject/QpayCoin/releases
 
-P2P port: 39777, RPC port: 39778
+P2P port: 39177, RPC port: 39178
 -
 Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
