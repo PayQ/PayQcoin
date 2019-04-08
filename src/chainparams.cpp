@@ -106,12 +106,12 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // ValinorCoin: 1 day
         nTargetSpacing = 1 * 60;  // ValinorCoin: 1 minute
-        nLastPOWBlock = 300000;
-        nMaturity = 50;
+        nLastPOWBlock = 525000;
+        nMaturity = 60;
         nMasternodeCountDrift = 20;
-        nMasternodeCollateralLimit = 50000;
+        nMasternodeCollateralLimit = 100000000000;
         nModifierUpdateBlock = 615800;
-        nMaxMoneyOut = 650000000 * COIN;
+        nMaxMoneyOut = 2100000000000000 * COIN;
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
