@@ -107,7 +107,7 @@ public:
         nTargetTimespan = 1 * 60; // QpayCoin: 1 day
         nTargetSpacing = 0.5 * 60;  // QpayCoin: 1 minute
         nLastPOWBlock = 525000;
-        nMaturity = 100000;
+        nMaturity = 100;
         nMasternodeCountDrift = 20;
         nMasternodeCollateralLimit = 100000000000;
         nModifierUpdateBlock = 2880;
