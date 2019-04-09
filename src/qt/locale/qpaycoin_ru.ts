@@ -2381,11 +2381,11 @@ https://www.transifex.com/qpaycoin-project/qpaycoin-project-translations</transl
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Посленее отправление</translation>
+        <translation>Последнее отправление</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Послений приём</translation>
+        <translation>Последний приём</translation>
     </message>
     <message>
         <source>Bytes Sent</source>
@@ -2441,7 +2441,7 @@ https://www.transifex.com/qpaycoin-project/qpaycoin-project-translations</transl
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>Кнопка ниже перезапустит кошелёк с некоторыми опциями кммандной строки чтобы отремотировать кошелёк, файлы блокчейна и пропавшие / устаревшие транзакции. </translation>
+        <translation>Кнопка ниже перезапустит кошелёк с некоторыми опциями командной строки чтобы отремотировать кошелёк, файлы блокчейна и пропавшие / устаревшие транзакции. </translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
