@@ -193,7 +193,7 @@ border:1px solid #E50000;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
-color:#818181;
+color:#F50000;
 }
 
 QComboBox:checked {
@@ -201,7 +201,7 @@ background:#f2f2f2;
 }
 
 QComboBox:editable {
-background:#382f44;
+background:#5B0000;
 color:#a00000;
 border:0px solid transparent;
 }
@@ -220,7 +220,7 @@ background:#fff;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
-color:#818181;
+color:#F50000;
 }
 
 QComboBox QAbstractItemView::item {
@@ -228,7 +228,7 @@ margin:4px;
 }
 
 QComboBox::item {
-color:#818181;
+color:#F50000;
 }
 
 QComboBox::item:alternate {
@@ -252,7 +252,7 @@ border:1px solid #E50000;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
-color:#818181;
+color:#F50000;
 }
 
 QAbstractSpinBox::up-button {
@@ -710,7 +710,7 @@ margin-bottom:0px;
 
 QDialog#OptionsDialog QLabel#label_3 { /* Translations Missing? Label */
 qproperty-alignment: 'AlignVCenter | AlignCenter';
-color:#818181;
+color:#F50000;
 padding-bottom:8px;
 }
 
@@ -732,7 +732,7 @@ min-width:180px;
 }
 
 QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading { /* Peers Info Header */
-color:#382f44;
+color:#5B0000;
 }
 
 QDialog#RPCConsole QTableView#peerWidget::item { /* Peers Table Items */
@@ -864,7 +864,7 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 font-size:12px;
 background-color:transparent;
-color:#382F44;
+color:#5B0000;
 margin-right:5px;
 padding-right:5px;
 }
@@ -886,7 +886,7 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 font-size:12px;
 background-color:transparent;
-color:#382F44;
+color:#5B0000;
 margin-right:5px;
 padding-right:5px;
 }
@@ -908,7 +908,7 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 font-size:12px;
 background-color:transparent;
-color:#382F44;
+color:#5B0000;
 margin-right:5px;
 padding-right:5px;
 }
@@ -970,7 +970,7 @@ QWidget .QFrame#frameObfuscation #formLayoutWidget .QLabel#label_6 { /* Obfuscat
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:transparent;
-color:#382F44;
+color:#5B0000;
 margin-right:5px;
 padding-right:5px;
 }
@@ -983,22 +983,22 @@ QWidget .QFrame#frameObfuscation #formLayoutWidget .QLabel#label_7 { /* Obfuscat
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:transparent;
-color:#382F44;
+color:#5B0000;
 margin-right:5px;
 padding-right:5px;
 
 }
 
 QWidget .QFrame#frameObfuscation #formLayoutWidget .QProgressBar#obfuscationProgress { /* Obfuscation Completion */
-border: 1px solid #818181;
+border: 1px solid #F50000;
 border-radius: 1px;
 margin-right:43px;
 text-align: right;
-color:#818181;
+color:#F50000;
 }
 
 QWidget .QFrame#frameObfuscation #formLayoutWidget .QProgressBar#obfuscationProgress::chunk {
-background-color: #382f44;
+background-color: #5B0000;
 width:1px;
 }
 
@@ -1006,7 +1006,7 @@ QWidget .QFrame#frameObfuscation #formLayoutWidget .QLabel#labelAnonymizedText {
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:transparent;
-color:#382F44;
+color:#5B0000;
 margin-right:5px;
 padding-right:5px;
 }
@@ -1019,7 +1019,7 @@ QWidget .QFrame#frameObfuscation #formLayoutWidget .QLabel#label_8 { /* Obfuscat
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:transparent;
-color:#382F44;
+color:#5B0000;
 margin-right:5px;
 padding-right:5px;
 }
@@ -1032,7 +1032,7 @@ QWidget .QFrame#frameObfuscation #formLayoutWidget .QLabel#label_9 { /* Obfuscat
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:transparent;
-color:#382F44;
+color:#5B0000;
 margin-right:5px;
 padding-right:5px;
 }
@@ -1045,7 +1045,7 @@ QWidget .QFrame#frameObfuscation .QLabel#obfuscationStatus { /* Obfuscation Stat
 qproperty-alignment: 'AlignVCenter | AlignCenter';
 qproperty-geometry: rect(70 226 395 34);
 font-size:11px;
-color:#818181;
+color:#F50000;
 }
 
 /**************************** OBFUSCATION BUTTONS ***************************************/
@@ -1129,7 +1129,7 @@ background-repeat:none;
 
 QWidget .QFrame#frame_2 .QLabel#label_4 { /* Recent Transactions Label */
 min-width:180px;
-color:#382f44;
+color:#5B0000;
 margin-left:67px;
 margin-top:83px;
 margin-right:5px;
@@ -1176,7 +1176,7 @@ min-height:25px;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlFeatures { /* Coin Control Header */
-color:#382f44;
+color:#5B0000;
 font-weight:bold;
 font-size:14px;
 }
@@ -1419,12 +1419,12 @@ QDialog#CoinControlDialog .QDialogButtonBox#buttonBox QPushButton { /* Coin Cont
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioTreeMode { /* Coin Control Tree Mode Selector */
-color:#818181;
+color:#F50000;
 background-color:transparent;
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioListMode { /* Coin Control List Mode Selector */
-color:#818181;
+color:#F50000;
 background-color:transparent;
 }
 
@@ -1560,7 +1560,7 @@ border:1px solid #ef6666;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame .QLabel#label_6 { /* Requested Payments History Label */
-color:#382f44;
+color:#5B0000;
 font-weight:bold;
 font-size:14px;
 }
@@ -1621,5 +1621,5 @@ color:#333;
 }
 
 QCalendarWidget QAbstractItemView:disabled { /* Calendar widget days not in month */
-color:#818181;
+color:#F50000;
 }

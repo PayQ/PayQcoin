@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("700e31bbd6e277aab04da8916472abbd162ff9aa6e1e0010ad7b9f1b941886d6"));
+    (0, uint256("0e3e12d95eb052c84e5d4fb4787e4f7a6b56622904386f415183f692c9ebdcc4"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1554743587, // * UNIX timestamp of last checkpoint block
@@ -139,13 +139,13 @@ public:
         genesis.nNonce = 2394236;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("700e31bbd6e277aab04da8916472abbd162ff9aa6e1e0010ad7b9f1b941886d6"));
-        assert(genesis.hashMerkleRoot == uint256("b960993000cc79639757b52a0585cc7862c8ba05c8101f83d2ba770bc0bb105d"));
+        assert(hashGenesisBlock == uint256("0e3e12d95eb052c84e5d4fb4787e4f7a6b56622904386f415183f692c9ebdcc4"));
+        assert(genesis.hashMerkleRoot == uint256("0a0a69792828daae2fc8fbde3ae7d817c06d1ce19f535ff1f407ea89d1af0124"));
 
         vSeeds.push_back(CDNSSeedData("89.223.89.251", "89.223.89.251"));         // Single node address
         vSeeds.push_back(CDNSSeedData("89.223.89.252", "89.223.89.252"));           // Single node address
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 49);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 58);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 179);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
@@ -167,7 +167,7 @@ public:
 
         nPoolMaxTransactions = 3;
         strSporkKey = "04a800fd21d66d68fb5ca725403cabed0af5b8b3940912ad09324d9cabe140c507829b68faa231c4f6a7f6761df69bdbdce5d86d78f34cbbb74d1339036b6d91c5";
-        strObfuscationPoolDummyAddress = "LpsJZBr1c9CMADAN84HykYZa2HU8upiYfN";
+        strObfuscationPoolDummyAddress = "M41fY39kyRJCZz5gaFX1ivkRVLoP2Dx8vj";
 		
         nStartMasternodePayments = 1554743587; // Wed, 03 Apr 2019 00:00:00 GMT
     }
@@ -213,7 +213,7 @@ public:
         genesis.nNonce = 2394236;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("700e31bbd6e277aab04da8916472abbd162ff9aa6e1e0010ad7b9f1b941886d6"));
+        assert(hashGenesisBlock == uint256("0e3e12d95eb052c84e5d4fb4787e4f7a6b56622904386f415183f692c9ebdcc4"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -221,7 +221,7 @@ public:
         vSeeds.push_back(CDNSSeedData("80.211.202.181", "80.211.202.181"));         // Single node address
         vSeeds.push_back(CDNSSeedData("94.177.187.54", "94.177.187.54"));           // Single node address
 */
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet qpaycoin addresses start with 'x' or 'y'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 120); // Testnet qpaycoin addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet qpaycoin script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
         // Testnet qpaycoin BIP32 pubkeys start with 'DRKV'
@@ -244,7 +244,7 @@ public:
 
         nPoolMaxTransactions = 2;
         strSporkKey = "04ca864ee5e01ddf5ec4db13d7df059ce12741a9c90fb68ba2c84695b1d2217b143fbb86c9e7cd37a27161b1da170ed12b1d7ecfb8d84b70ebd2eab29f9871d556";
-        strObfuscationPoolDummyAddress = "LrJNYbKU6up2VRtWdvhzV4MZJN9hii6VCK";
+        strObfuscationPoolDummyAddress = "M41fY39kyRJCZz5gaFX1ivkRVLoP2Dx8vj";
         nStartMasternodePayments = 1554743587; // Wed, 03 Apr 2019 00:00:00 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
@@ -283,7 +283,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 39773;
-        assert(hashGenesisBlock == uint256("0bf30676cbfd7d3c0ea08a8af75a0b5a1973a466cbbdb98a62f0862e0f659b6e"));
+        assert(hashGenesisBlock == uint256("27cec6e37d37a626e44e39f9cceb5d517129a55f3422fbc2a08449c3bf570c70"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
